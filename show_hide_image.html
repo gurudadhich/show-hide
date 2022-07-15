@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>show hide image</title>
+</head>
+
+<body>
+    <button onclick="showHideImage()">Show/Hide</button><br><br>
+   
+    <img id="img" src="/image.jpg" />
+
+    <script>
+        function showHideImage() {
+            if (img == 1) {
+                document.getElementById("img").style.display = "inline"
+                return img = 0;
+            }
+            else {
+                document.getElementById("img").style.display = "none"
+                return img = 1;
+            }
+        }
+    </script>
+
+</body>
+
+</html>
